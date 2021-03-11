@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import SearchBar from './SearchBar';
 
 class App extends React.Component {
@@ -15,13 +16,5 @@ class App extends React.Component {
         );
     }
 }
-
-// const App = () => {
-    // return (
-    //     <div className="ui container" style={{ marginTop: '10px' }}>
-    //         <SearchBar />
-    //     </div>
-    // );
-// }
 
 export default App;
